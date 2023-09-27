@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js5</title>
+    <link rel="stylesheet" href="js5.css">
+</head>
+<body>
+<form novalidate>
+    <p class="div1">
+        <label for="name">
+            <span>Name:</span>
+            <input class="abc" type="text" id="name" name="name" required minlength="8" />
+            <span class="error" aria-live="polite"></span>
+        </label>
+    </p>
+    <p class="div1">
+        <label for="mail">
+            <span>Email:</span>
+            <input class="abc" type="email" id="mail" name="mail" required minlength="8" />
+            <span class="error" aria-live="polite"></span>
+        </label>
+    </p>
+    <p>
+        <label for="web">
+            <span>Website:</span>
+            <input class="abc" type="url" id="web" name="web" required minlength="8" />
+            <span class="error" aria-live="polite"></span>
+        </label>
+    </p>
+    <p class="div1">
+        <label for="mes">
+            <span>Message:</span>
+            <input class="abc" type="text" id="mes" name="mes" required minlength="1">
+            <span class="error" aria-live="polite"></span>
+        </label>
+    </p>
+    <button type="submit">Submit</button>
+</form>
+<script src="js5.js">
+</script>
+</body>
+</html>

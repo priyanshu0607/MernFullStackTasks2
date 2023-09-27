@@ -1,0 +1,32 @@
+.box {
+    width: 250px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    padding: 10px;
+    margin: 15px;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+p {
+    margin: 10px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+#displayTime{
+    width:700px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: burlywood;
+}

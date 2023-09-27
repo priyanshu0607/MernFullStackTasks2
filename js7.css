@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#animate {
+    margin: 200px 0 0 0;
+    width: 250px;
+    position: relative;
+    z-index: 3;
+}
+
+.control {
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #F78CA2;
+}
+
+button {
+    margin: 100px;
+    padding: 15px 30px;
+    font-size: 30px;
+    background-color: #D80032;
+    color: white;
+    border: 3px solid #F9DEC9;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@keyframes trains {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}

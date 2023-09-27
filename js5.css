@@ -1,0 +1,43 @@
+body {
+    font: 1em sans-serif;
+    width: 200px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.abc {
+    appearance: none;
+    width: 100%;
+    border: 1px solid #333;
+    margin: 0;
+    font-family: inherit;
+    font-size: 90%;
+    box-sizing: border-box;
+    height: 4vh;
+}
+
+button {
+    border: none;
+    padding: 6px 12px;
+    background-color: #900;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input:invalid {
+    background-color: #fdd;
+}
+
+input:focus:invalid {
+    outline: none;
+}
+
+.error {
+    width: 200px;
+    padding: 0;
+    font-size: 90%;
+    color: red;
+    box-sizing: border-box;
+}

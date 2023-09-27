@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background-color: #ebf928;
+    background-image: linear-gradient(315deg, #ebf928 0%, #d425b5 74%);
+    width: 55vw;
+    margin: 35px 0;
+    padding: 25px 0;
+    border-radius: 5px;
+}
+
+.side {
+    text-align: right;
+}
+
+.button {
+    border-radius: 15px;
+    font-size: 13px;
+    padding: 6px 24px;
+    background-color: red;
+    cursor: pointer;
+    color:white;
+    border:2px solid white;
+}
+
+select{
+    background-color: white;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    padding: 5px 50px 5px 3px;
+}
+
+
+.input-control .success input {
+    border-color: #09c372;
+}
+
+.input-control .success {
+    color: #09c372;
+    font-size: 16px;
+    height: 13px;
+}
+
+.input-control .error input {
+    border-color: #a01515;
+}
+
+.input-control .error {
+    color: #a01515;
+    font-size: 16px;
+    height: 13px;
+}
+
+input{
+    padding: 1px 0;
+}
